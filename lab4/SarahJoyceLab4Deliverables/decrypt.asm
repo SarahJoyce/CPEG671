@@ -1,0 +1,7 @@
+sub eax, 0x26
+xor eax, 0x37
+xor eax, 0x11e61
+not eax
+xor eax, 0x7a69
+add eax, 0x18
+ret
